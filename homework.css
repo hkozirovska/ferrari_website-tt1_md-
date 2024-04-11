@@ -1,0 +1,391 @@
+/*Info about the author 
+Name, surname: Hanna Kozirovska
+Student ID number: hk22014
+*/
+@import url('https://fonts.googleapis.com/css?family=Russo One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+  
+  #page-container {
+    background-color: rgba(0,0,0,.8);
+    position: relative;
+   }
+
+  div.top_banner {
+    height: 100vh;
+    background-image: url("images/intro-img-812gts.jfif");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  }
+
+  div.slogan {
+    color:rgba(0,0,0,0.6);
+    text-align: center;
+    text-shadow: 2px 2px 2px;
+    font-size: 40px;
+    vertical-align:bottom;
+    margin-top: 87vh;
+    text-transform: uppercase;
+    opacity: 0.95;
+  }
+
+  article {
+    padding: 50px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  body > :not(#logo) {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  
+  p:not(.lead){
+    font-family: "Montserrat";
+    color: rgba(255,255,255,0.7);
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .lead{ 
+    font-family: "Montserrat";
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #page-container {
+    font-family: "Russo One";
+    color: white;
+  }
+
+  #copyright {
+    font-family: "Russo One";
+    color: white;
+  }
+
+  span.title-red {
+    color: red;
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-variant: small-caps;
+  }
+
+  h2 {
+    font-family: "Russo One";
+    color: white;
+    font-size: 22px;
+    padding-bottom: 20px;
+    text-align:left;
+  }
+
+  .para-head {
+    font-family: "Russo One";
+    color: rgba(255,255,255,0.7);
+    font-size: 17px;
+    text-align:left;
+  }
+
+  h3 {
+    font-family: "Russo One";
+    color: rgba(255,255,255);
+    font-size: 19px;
+  }
+
+
+  .column-1 > p {
+    text-transform: uppercase;
+    font-size: smaller;
+    line-height: 1;
+  }
+
+  .column-1 {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+  }
+
+  .column-2 {
+    float: right;
+    width: 50%;
+    bottom: 0%;
+    right: 0%;
+    padding-top: 130px;
+  }
+
+  .small > p {
+    font-size:  0.65em;
+  }
+
+  dt {
+    font-family: "Montserrat";
+    color: white;
+  }
+
+  dd {
+    font-family: "Montserrat";
+    color: white;
+  }
+  
+  ul#parent-menu {
+    text-transform: uppercase;
+    top: 0;
+    width: 100%;
+  }
+
+  nav#main-menu {
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 100;
+  }
+
+  li.sub-menu-caption, li.upper-menu {
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    border-right: 1px solid rgba(255,0,0,0.5);
+    font-family: "Montserrat";
+  }
+
+  li.right-menu {
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 10px;
+    border: none;
+    float: right;
+    text-align: right;
+    font-family: "Montserrat";
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  li.sub-menu-caption {
+    display: inline-block;
+    color: #FF0000;
+    border-left: 1px solid rgba(255,0,0,0.5);
+  }
+
+  .sub-menu {
+    margin-left: -11px;
+    padding-right: 3px;
+    position:absolute;
+    display: none;
+    border-right: 1px solid rgba(255,0,0,0.5);
+    border-left: 1px solid rgba(255,0,0,0.5);
+    background-color: black;
+    padding-top: 10px;
+    font-style: italic;
+  }
+
+  .sub-menu li {
+    font-family: "Russo One";
+    font-size: 14px;
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(255,0,0,0.5);
+  }
+
+  li.sub-menu-caption:hover .sub-menu {
+    display: block;
+    color: #FF0000;
+  }
+  
+  a:link,:visited {
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+    font-weight: lighter;
+    font-family: "Montserrat";
+  }
+
+  .upper-menu a:hover{
+    text-decoration: underline;
+  }
+
+  .sub-menu a:hover{
+    color: red;
+    text-decoration: underline;
+  }
+
+
+  img#interior-img {
+    float: left;
+    width: 20%;
+    padding-right: 10px;
+  }
+
+  #image-right img {
+    min-width: 480px;
+    width: 50%;
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+  }
+
+  p.img-text {
+    color: rgba(255, 0, 0, 1);
+    font-size: 25px;
+    font-family: "Russo One";
+    text-transform: uppercase;
+    text-shadow: rgb(0, 0, 0, 1) 1px 1px 4px;
+    position: absolute;
+    right: 305px;
+    margin-top: 10px;
+  }
+
+  ul.dynamics-list {
+    list-style: circle inside;
+    font-family: "Montserrat";
+    color: rgba(255,255,255,0.7);
+    padding-bottom: 10px;
+  }
+
+  #copyright{
+    position: absolute;
+    text-align: center;
+    color:rgba(255,0,0,0.5);
+    font-size: 12px;
+    font-family: "Montserrat";
+    width: 100%;
+  }
+
+  #logo:hover {
+    border: 2px solid red;
+    border-radius: 2px;
+  }
+
+  #logo {
+    position: sticky;
+    bottom: 0;
+    float: right;
+    border: 2px solid transparent;
+  }
+
+  .specs {
+    float:left;
+    width: 50%;
+  }
+  
+  .spec-container {
+    padding-left: 130px;
+    margin-bottom: 550px;
+    padding-top: 0px;
+  }
+
+  .specs>h3{
+    font-size: 15px;
+  }
+
+  dl{
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+    color:rgba(255,255,255,0.6); 
+    padding-bottom: 3px;
+  } 
+
+  dd{
+    display: inline-block;
+    width: 50%;
+    font-size: 13px;
+    color:rgba(255,255,255,0.6); 
+    padding-top: 3px;
+  } 
+
+  dt{
+    display: inline-block;
+    width: 50%;
+    font-size: 13px;
+    color:rgba(255,255,255,0.6);  
+  } 
+
+  .bottom {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .bottom dd {
+    display: inline-block;
+    width: 99%;
+    color: rgba(255,255,255,0.5);
+  }
+
+  .bottom dt{
+    font-size: 10px;
+    width: fit-content;
+    color: rgba(255,255,255,0.5);
+    font-size: 13px;
+  }
+
+ footer{
+  margin-top: 40px;
+  text-align: center;
+  }
+
+  ul.menu-bottom>li {
+    margin-top:10px;
+    display:inline-block;
+    text-transform: capitalize;
+    border-left: 1px solid rgb(255, 0, 0, 0.5);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: "Montsterrat";
+    font-variant:small-caps;
+  }
+
+  .menu-bottom li:first-child {
+    border-left:none;
+  }
+
+  .menu-bottom {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .menu-bottom a:link{
+    color:  rgb(255, 0, 0, 0.5);
+    font-family: "Montserrat";
+  }
+
+  .menu-bottom a:visited{
+    color:  rgb(255, 0, 0, 0.5);
+    font-family: "Montserrat";
+  }
+
+  .menu-bottom a:hover{
+    text-decoration: underline;
+  }
+
+  article.main-container::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width:100%;
+    height: 1px;
+    left: 0;
+    background: rgb(255, 0, 0, 0.5);
+    z-index: 10;
+  }
+
+  .menu-bottom::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width:100%;
+    height: 1px;
+    background: rgb(255, 0, 0, 0.5);
+  }
